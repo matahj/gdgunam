@@ -3,7 +3,7 @@
 Formas de consumir APIs:
 
 1. Nativa JS: fetch (Esta es la que utilizamos)
-2. Con la librería Axios
+2. Con la librería Axios (Esta no la utilizamos)
 
 https://pokeapi.co/
 
