@@ -1,6 +1,6 @@
 ### ThreeJS con React
 
-![resultado](/public/resultado2.png)
+![resultado](./public/resultado2.png "resultado")
 
 
 
