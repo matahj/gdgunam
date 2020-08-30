@@ -11,3 +11,9 @@ https://pokeapi.co/api/v2/pokemon/pikachu
 
 pikachu => nombre o número entre 1 y 893
 
+![resultado](resultado0.png "resultado")
+
+![resultado](resultado1.png "resultado")
+
+![resultado](resultado2.png "resultado")
+
