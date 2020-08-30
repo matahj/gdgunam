@@ -30,5 +30,4 @@ npm start
 npm install drei react-spring   (para ??)
 ~~~
 
-revisando
 
