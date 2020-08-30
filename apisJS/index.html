@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="master.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- As a link -->
+    <nav class="navbar navbar-danger bg-danger">
+        <p>API POKEMON</p>
+    </nav>
+
+    <div class="text-center">
+        <h1>Bienvenidos</h1>
+        <h2>PokeAPI</h2>
+    </div>
+
+    <div id="pokemonOrNumber" class="container">
+        <label>¿Qué pokemon quieres ver?</label>
+        <br/>
+        <small>Escribir el nombre o un número del 1 al 833</small>
+        <input id="pokemon" type="text" class="form-control text-center">
+        <button class="btn btn-warning" onclick="baseURL()" >Buscar</button>
+    </div>
+
+    <div id="poke-table" class="container mb-4">
+        <div class="row">
+            <!-- Imágen -->
+            <div class="col-12 text-center mb-4">
+                <img src="" alt="pokemon" id="image">
+            </div>
+
+            <!-- Fila -->
+            <div class="col-6 text-center">
+                <p>Nombre</p>
+            </div>
+            <div class="col-6 text-center">
+                <p id="parameterValue0"></p>
+            </div>
+
+            <!-- Fila -->
+            <div class="col-6 text-center">
+                <p>ID</p>
+            </div>
+            <div class="col-6 text-center">
+                <p id="parameterValue1"></p>
+            </div>
+
+            <!-- Fila -->
+            <div class="col-6 text-center">
+                <p>Experiencia base</p>
+            </div>
+            <div class="col-6 text-center">
+                <p id="parameterValue2"></p>
+            </div>
+
+            <!-- Fila -->
+            <div class="col-6 text-center">
+                <p>Altura</p>
+            </div>
+            <div class="col-6 text-center">
+                <p id="parameterValue3"></p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
