@@ -1,10 +1,12 @@
 import React from 'react';
-import '../css/App.css';
+
+import Ej1 from './Ejemplo1';
+
 
 function App() {
   return (
-    <div className="App">
-      Hola
+    <div>
+      <Ej1 />
     </div>
   );
 }

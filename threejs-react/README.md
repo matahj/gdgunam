@@ -1,5 +1,9 @@
 ### ThreeJS con React
 
+![resultado](/public/resultado2.png)
+
+
+
 * **ThreeJS**. Librería para generar y animar gráficos 3D en el navegador, con WebGL.
 
     * Renderizadores (WebGL/Canvas), escenas, luces, sombras, materiales, texturas, objetos, geometrías, cargadores de datos.
@@ -27,7 +31,19 @@ npm start
 
 *Estructurar proyecto
 
-npm install drei react-spring   (para ??)
+npm install drei react-spring
 ~~~
+
+GitHub (ver Ecosystem)
+
+https://github.com/react-spring/react-three-fiber
+
+~~~
+npm install drei react-spring
+~~~
+
+El archivo.glb (igual a gltf) se genera a partir de un archivo.dae (modelo3d) y una textura.jpg (descargados de https://www.sketchup.com/es)
+
+en la página: https://blackthread.io/gltf-converter/
 
 
