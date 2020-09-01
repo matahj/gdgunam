@@ -4,9 +4,11 @@
 https://ejemplothreejsreact.netlify.app/
 
 Interactividad:
--Scroll
--Drag
--Click en los cúbos.
+
+- Scroll
+- Drag
+- Click en los cúbos.
+ 
 
 
 ![resultado](./public/resultado2.png "resultado")
