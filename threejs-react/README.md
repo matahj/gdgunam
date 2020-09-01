@@ -1,5 +1,14 @@
 ### ThreeJS con React
 
+
+https://ejemplothreejsreact.netlify.app/
+
+Interactividad:
+-Scroll
+-Drag
+-Click en los cúbos.
+
+
 ![resultado](./public/resultado2.png "resultado")
 
 
@@ -10,7 +19,7 @@
     * Efectos, animaciones, shaders, exportación e importación de objetos, soporte, ejemplos, depuración.
     * Creative coding (arte+diseño+programación+matemáticas), visualización de datos, ui, juegos (pequeños).
 
-* **React Three Fiber (R3F)**. Renderer/reconciliador de REact para ThreeJS.
+* **React Three Fiber (R3F)**. Renderer/reconciliador de React para ThreeJS.
 
     * Reconciliador = Algoritmo para re-renderizar el odm real a partir del dom virtual.
     * Canvas
